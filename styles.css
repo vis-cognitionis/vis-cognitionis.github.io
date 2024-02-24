@@ -5,7 +5,7 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background-image: url("public/background.png");
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/bedtime-whispers.appspot.com/o/background.png?alt=media&token=87aeb973-e5d0-422b-80ba-a5343401e165");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -135,7 +135,7 @@ header div {
 
 footer {
     position: relative;
-    background-image: url("public/clouds.png");
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/bedtime-whispers.appspot.com/o/clouds.png?alt=media&token=0d7fc267-58e0-4b15-b072-53eb58121755");
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
