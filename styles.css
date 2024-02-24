@@ -1,0 +1,271 @@
+body {
+    font-family: "Lato", sans-serif;
+    margin: 0;
+    padding: 2rem 0 0 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    background-image: url("public/background.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: #030303;
+    color: white;
+}
+
+#termBody {
+    padding: 2.5rem;
+    padding-top: 5rem;
+}
+
+#privacyBody {
+    padding: 2.5rem;
+    padding-top: 5rem;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    box-sizing: border-box;
+    flex: 1;
+}
+
+li {
+    padding-left: 2rem;
+}
+
+header,
+main,
+footer {
+    text-align: center;
+}
+
+header {
+    padding: 40px 0;
+    font-family: "Lato", sans-serif;
+    align-self: center;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+h1 {
+    margin: 0
+}
+
+h4 {
+    font-weight: 400;
+    line-height: 1.5rem;
+}
+
+header h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+header img {
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+header div {
+    display: flex;
+    justify-content: center;
+    column-gap: 12px;
+    flex-direction: row;
+    align-self: center;
+    align-items: center;
+    max-width: 1200px;
+    padding: 0 20px;
+    box-sizing: border-box;
+    flex: 1;
+}
+
+.headerText {
+    width: auto;
+}
+
+.androidInfos {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    box-sizing: border-box;
+}
+
+@keyframes breathe {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.sphereImg {
+    width: 15rem;
+    height: 15rem;
+    margin-bottom: 1.5rem;
+    animation: breathe 5s infinite ease-in-out;
+}
+
+.googlePlay {
+    width: 10rem;
+    border: 2px solid rgb(171, 133, 172);
+    border-radius: 0.8rem;
+    margin-bottom: 2rem
+}
+
+.androidMock {
+    width: 14rem;
+}
+
+.androidScreens {
+    width: 12rem;
+}
+
+footer {
+    position: relative;
+    background-image: url("public/clouds.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 30vh;
+    width: 100%;
+}
+
+
+footer p {
+    font-size: 16px;
+    display: flex;
+    gap: 1.5rem;
+    align-self: center;
+    justify-content: center;
+    margin-top: -1rem;
+}
+
+main {
+    padding: 20px 0;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.link {
+    color: rgb(255, 255, 255);
+    text-decoration: underline;
+}
+
+.mainContainer {
+    display: flex;
+    align-items: center;
+    align-self: center;
+    flex-direction: row;
+    gap: 5rem;
+    padding-left: 10%;
+    padding-right: 10%;
+    max-width: 900px;
+}
+
+.androidContainer {
+    display: flex;
+    align-items: center;
+    align-self: center;
+    flex-direction: row-reverse;
+    margin-top: 1rem;
+    max-width: 900px;
+}
+
+.infoContainer {
+    width: 60%;
+    max-width: 40rem;
+    height: auto;
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+    background-color: rgba(83, 73, 116, 0.85);
+    padding: 2rem 2rem 0 2rem;
+    box-sizing: border-box;
+}
+
+.title {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.section {
+    margin-bottom: 30px;
+}
+
+.section-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.section-content {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.back-button {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    top: 2rem;
+    left: 2.3rem;
+    padding: 10px;
+    width: 2rem;
+    height: 2rem;
+    color: #fff;
+    background-color: rgb(255, 255, 255, 0.3);
+    font-size: 20px;
+    border: none;
+    border-radius: 1rem;
+    font-family: "Lato", sans-serif;
+    cursor: pointer;
+}
+
+.back-button:hover {
+    background-color: #0056b3;
+}
+
+@media (max-width: 768px) {
+    .mainContainer {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 0
+    }
+
+    .androidContainer {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 0
+    }
+
+    .infoContainer {
+        width: 20rem;
+        border-radius: 1rem;
+    }
+
+    .googlePlay {
+        margin-bottom: 0
+    }
+
+    footer p {
+        margin-top: 10rem;
+    }
+}
