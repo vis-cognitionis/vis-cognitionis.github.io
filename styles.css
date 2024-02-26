@@ -5,9 +5,8 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background-image: url("https://firebasestorage.googleapis.com/v0/b/bedtime-whispers.appspot.com/o/background.png?alt=media&token=87aeb973-e5d0-422b-80ba-a5343401e165");
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/bedtime-whispers.appspot.com/o/background.png?alt=media&token=1277241a-f2c9-4713-8796-a07fba5bb946");
     background-repeat: no-repeat;
-    background-position: center;
     background-size: cover;
     background-color: #030303;
     color: white;
